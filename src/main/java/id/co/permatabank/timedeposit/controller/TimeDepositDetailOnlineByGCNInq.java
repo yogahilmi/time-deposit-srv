@@ -1,4 +1,4 @@
-package id.co.permatabank.timedeposit.util;
+package id.co.permatabank.timedeposit.controller;
 
 import com.konylabs.middleware.controller.DataControllerRequest;
 import com.konylabs.middleware.controller.DataControllerResponse;
@@ -12,6 +12,8 @@ import com.pmob.kony.util.ResponseCode;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import id.co.permatabank.timedeposit.util.DepositException;
 
 public class TimeDepositDetailOnlineByGCNInq extends ABaseService {
 
